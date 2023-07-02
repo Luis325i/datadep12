@@ -1,0 +1,40 @@
+###
+### A complete description of a Prefect Deployment for flow 'transformacion'
+###
+name: transformacion_datapath
+description: null
+version: 1a8380ddb68b47e0ad74841e0bbb99da
+# The work queue that will handle this deployment's runs
+work_queue_name: default
+work_pool_name: null
+tags: []
+parameters: {}
+schedule: null
+is_schedule_active: null
+infra_overrides: {}
+infrastructure:
+  type: process
+  env: {}
+  labels: {}
+  name: null
+  command: null
+  stream_output: true
+  working_dir: null
+  block_type_slug: process
+  _block_type_slug: process
+
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: transformacion
+manifest_path: null
+storage: null
+path: Y:\0.Dev\Datapath\Proyecto
+entrypoint: transform.py:transformacion
+parameter_openapi_schema:
+  title: Parameters
+  type: object
+  properties: {}
+  required: null
+  definitions: null
+timestamp: '2023-07-02T16:39:18.614829+00:00'

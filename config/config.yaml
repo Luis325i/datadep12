@@ -1,0 +1,11 @@
+mysql:
+    host: "192.168.1.50"
+    user: "root"
+    pass: "root"
+    port: "3310"
+
+cloud_storage:
+    path: "Y:/0.Dev/Datapath/Proyecto/credenciales/seventh-acrobat-385100-3c4e81fdcf98.json"
+
+mongo_db:
+    connection_string: "mongodb+srv://usuario_alumnos:Uu8ExzCcjjzP2l6K@clusterlm.vqn8bvr.mongodb.net/?retryWrites=true&w=majority"
